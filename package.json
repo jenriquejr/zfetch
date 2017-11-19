@@ -1,0 +1,37 @@
+{
+  "name": "zfetch",
+  "version": "0.1.0",
+  "description": "API oriented node-fetch wrapper",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint lib/**/*.js tests/**/*.js",
+    "pretest": "npm run lint",
+    "test": "tape tests/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenriquejr/zfetch.git"
+  },
+  "keywords": [
+    "fetch",
+    "request",
+    "api"
+  ],
+  "author": "Juan E. Jimenez (https://github.com/jenriquejr)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jenriquejr/zfetch/issues"
+  },
+  "homepage": "https://github.com/jenriquejr/zfetch#readme",
+  "dependencies": {
+    "node-fetch": "^2.0.0-alpha.9"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "mocha": "^4.0.1",
+    "nock": "^9.1.0",
+    "tape": "^4.8.0"
+  }
+}
