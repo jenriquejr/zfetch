@@ -1,6 +1,6 @@
 {
   "name": "zfetch",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "API oriented node-fetch wrapper",
   "main": "lib/index.js",
   "scripts": {

@@ -1,4 +1,7 @@
 # zFetch
+
+[![Build Status](https://semaphoreci.com/api/v1/jenriquejr/zfetch/branches/master/badge.svg)](https://semaphoreci.com/jenriquejr/zfetch)
+
 node-fetch wrapper with some minor changes.
 
 This library allows pre-configuring fetch requests per domain, allowing pre-configured headers and query parameters. 
